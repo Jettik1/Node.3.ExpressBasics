@@ -3,12 +3,14 @@ const PORT = process.env.PORT || 5000
 // const PORT = 5000;
 const express = require('express')
 const mongoose = require('mongoose')
-const Post = require('./Post.js')
 const router = require('./router.js')
+const fileUpload = reqire('express-fileupload')
 
 const app = express();
 
 app.use(express.json()) // Чтобы преобразовать POST запрос в форматье JSON
+app.use(express.static('static'))
+app.use(fileUpload({}))
 app.use('/api', router)
 
 
