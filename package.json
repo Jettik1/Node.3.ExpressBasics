@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jettik1/NodeExpressBasics.git"
+    "url": "git+https://github.com/Jettik1/Node.3.ExpressBasics.git"
   },
   "keywords": [],
   "author": "Jettik1",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jettik1/NodeExpressBasics/issues"
+    "url": "https://github.com/Jettik1/Node.3.ExpressBasics/issues"
   },
-  "homepage": "https://github.com/Jettik1/NodeExpressBasics#readme",
+  "homepage": "https://github.com/Jettik1/Node.3.ExpressBasics#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
